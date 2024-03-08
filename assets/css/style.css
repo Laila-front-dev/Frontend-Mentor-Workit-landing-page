@@ -1,16 +1,16 @@
 /* Font Face */
 @font-face {
   font-family: "Fraunces";
-  src: url("/assets/fonts/fraunces/static/Fraunces_144ptSemiBold.woff2")
+  src: url("./assets/fonts/fraunces/static/Fraunces_144ptSemiBold.woff2")
       format("woff2"),
-    url("/assets/fonts/fraunces/static/Fraunces_144ptSemiBold.woff")
+    url("./assets/fonts/fraunces/static/Fraunces_144ptSemiBold.woff")
       format("woff");
   font-weight: 600;
 }
 @font-face {
   font-family: "Manrope";
-  src: url("/assets/fonts/manrope/static/ManropeRegular.woff2") format("woff2"),
-    url("/assets/fonts/manrope/static/ManropeRegular.woff") format("woff");
+  src: url("./assets/fonts/manrope/static/ManropeRegular.woff2") format("woff2"),
+    url("./assets/fonts/manrope/static/ManropeRegular.woff") format("woff");
   font-weight: 400;
 }
 
@@ -233,7 +233,7 @@ header {
   .hero::before {
     content: "";
     position: absolute;
-    background-image: url("/assets/images/bg-pattern-large-right.svg");
+    background-image: url("./assets/images/bg-pattern-large-right.svg");
     inset: 10.875rem 0 0 0;
     background-repeat: no-repeat;
     height: inherit;
@@ -243,7 +243,7 @@ header {
   .hero::after {
     content: "";
     position: absolute;
-    background-image: url("/assets/images/bg-pattern-large-left.svg");
+    background-image: url("./assets/images/bg-pattern-large-left.svg");
     inset: 4.813rem 0 0 0;
     background-repeat: no-repeat;
   }
@@ -400,7 +400,7 @@ h1 span {
   .testimonial .testimonial-details::before {
     content: "";
     position: absolute;
-    background-image: url("/assets/images/bg-pattern-testimonial.png");
+    background-image: url("./assets/images/bg-pattern-testimonial.png");
     background-repeat: no-repeat;
     background-position: right;
     inset: 254px 0 0px 310px;
